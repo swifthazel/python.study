@@ -1,10 +1,11 @@
 # 图形化程序设计
 '''import turtle
 turtle.showturtle()
-turtle.write("石洪菱")
+turtle.write("python")
 '''
-import matplotlib.pyplot as plt
 
+
+import matplotlib.pyplot as plt
 '''t=turtle.Pen()
 for x in range(360):
      t.forward(x)
@@ -22,7 +23,8 @@ plt.ylabel('y')#
 plt.rcParams['font.san-serf']=['simhel'] #
 plt.show()
 '''
-‘’‘
+
+'''
 import matplotlib.pyplot as plt
 import numpy as np
 x=range(-100,100)  #取两百个点
@@ -43,7 +45,8 @@ plt.xlim(-1, 5)     #选择x的坐标范围
 #cos_y=np.cos(x)
 plt.subplot(2,2,4)#四号画布
 plt.plot(x,np.cos(x))
-plt.scatter(x,np.sin(x))#绘制散点图用scatter
+#绘制散点图用scatter
+plt.scatter(x,np.sin(x))
 plt.xlim(-1,5)
 #tan_y=np.tan(x)
 
@@ -54,6 +57,7 @@ plt.show()
 plt.savefig('三角函数')
 
 '''
+
 '''
 import matplotlib.pyplot as plt
 import numpy as np
@@ -85,6 +89,8 @@ plt.show()
 #+  x  D菱形  d窄菱形  _水平线
 #b  g  r  c薄荷蓝  m紫色  y  k黑色  w白色
 '''
+
+
 '''
 #解决乱码问题
 #绘制柱状图 bar
@@ -101,6 +107,8 @@ plt.xlabel('年份')
 plt.ylabel('销量')
 plt.show()
 '''
+
+
 '''
 import matplotlib.pyplot as plt
 import numpy as np
@@ -154,6 +162,7 @@ plt.rcParams['font.sans-serif']=['SimHei']
 plt.show()
 '''
 
+
 '''
 #绘制饼状图
 import matplotlib.pyplot as plt
@@ -182,6 +191,8 @@ plt.rcParams['font.sans-serif']=['SimHei']
 plt.show()
 
 '''
+
+
 '''
 #绘制直方图
 #使用randn函数生成1000个正太分布的随机数，使用hist函数绘制这1000个随机数的分布状态
@@ -200,6 +211,7 @@ plt.hist(x,**kw)
 plt.hist(z,**kw)
 plt.show()
 '''
+
 
 '''
 #绘制等高线图
